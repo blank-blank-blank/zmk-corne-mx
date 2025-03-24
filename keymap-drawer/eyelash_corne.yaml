@@ -1,11 +1,12 @@
+layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
   - $$mdi:keyboard-tab$$
-  - Q
-  - W
-  - E
-  - R
-  - T
+  - {t: '''', s: '"'}
+  - {t: ',', s: <}
+  - .
+  - P
+  - Y
   - $$mdi:arrow-up-bold$$
   - Y
   - U
@@ -15,10 +16,10 @@ layers:
   - {t: '$$mdi:backspace$$', type: backspace}
   - '&td0'
   - A
-  - S
-  - D
-  - F
-  - G
+  - O
+  - E
+  - U
+  - I
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
