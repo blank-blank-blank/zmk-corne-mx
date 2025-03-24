@@ -46,6 +46,16 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        double_key_escape {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
+            layers = <0>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
