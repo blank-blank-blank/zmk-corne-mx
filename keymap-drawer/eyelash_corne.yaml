@@ -30,11 +30,11 @@ layers:
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-control$$
-  - Z
+  - {t: ;, s: ':'}
+  - Q
+  - J
+  - K
   - X
-  - C
-  - V
-  - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - N
