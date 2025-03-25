@@ -83,7 +83,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
   - END
