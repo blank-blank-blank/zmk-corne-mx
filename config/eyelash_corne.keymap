@@ -68,6 +68,11 @@
             key-positions = <0 1>;
             layers = <2>;
         };
+
+        settings_layer_activate {
+            bindings = <&mo 4>;
+            key-positions = <45 47>;
+        };
     };
 
     keymap {
