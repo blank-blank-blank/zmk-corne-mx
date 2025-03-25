@@ -555,6 +555,14 @@ rect.held, rect.combo.held {
 <a href="#settings">
 <text x="694" y="214" class="combo tap layer-activator"><tspan style="font-size: 75%">settings</tspan></text>
 </a></g>
+<g class="combo combopos-1">
+<path d="M286,214 l-44,-8" class="combo"/>
+<path d="M286,214 l44,8" class="combo"/>
+<rect rx="6" ry="6" x="272" y="201" width="28" height="26" class="combo"/>
+<a href="#DVORAK">
+<text x="286" y="214" class="combo tap layer-activator">DVORAK</text>
+</a><text x="286" y="225" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -822,6 +830,14 @@ rect.held, rect.combo.held {
 <a href="#settings">
 <text x="694" y="214" class="combo tap layer-activator"><tspan style="font-size: 75%">settings</tspan></text>
 </a></g>
+<g class="combo combopos-1">
+<path d="M286,214 l-44,-8" class="combo"/>
+<path d="M286,214 l44,8" class="combo"/>
+<rect rx="6" ry="6" x="272" y="201" width="28" height="26" class="combo"/>
+<a href="#DVORAK">
+<text x="286" y="214" class="combo tap layer-activator">DVORAK</text>
+</a><text x="286" y="225" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SYMBOL">
@@ -1092,6 +1108,14 @@ rect.held, rect.combo.held {
 <a href="#settings">
 <text x="694" y="214" class="combo tap layer-activator"><tspan style="font-size: 75%">settings</tspan></text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M286,214 l-44,-8" class="combo"/>
+<path d="M286,214 l44,8" class="combo"/>
+<rect rx="6" ry="6" x="272" y="201" width="28" height="26" class="combo"/>
+<a href="#DVORAK">
+<text x="286" y="214" class="combo tap layer-activator">DVORAK</text>
+</a><text x="286" y="225" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-Fn">
@@ -1352,6 +1376,14 @@ rect.held, rect.combo.held {
 <a href="#settings">
 <text x="694" y="214" class="combo tap layer-activator"><tspan style="font-size: 75%">settings</tspan></text>
 </a></g>
+<g class="combo combopos-1">
+<path d="M286,214 l-44,-8" class="combo"/>
+<path d="M286,214 l44,8" class="combo"/>
+<rect rx="6" ry="6" x="272" y="201" width="28" height="26" class="combo"/>
+<a href="#DVORAK">
+<text x="286" y="214" class="combo tap layer-activator">DVORAK</text>
+</a><text x="286" y="225" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1274)" class="layer-settings">
@@ -1621,6 +1653,14 @@ rect.held, rect.combo.held {
 <a href="#settings">
 <text x="694" y="214" class="combo tap layer-activator"><tspan style="font-size: 75%">settings</tspan></text>
 </a></g>
+<g class="combo combopos-1">
+<path d="M286,214 l-44,-8" class="combo"/>
+<path d="M286,214 l44,8" class="combo"/>
+<rect rx="6" ry="6" x="272" y="201" width="28" height="26" class="combo"/>
+<a href="#DVORAK">
+<text x="286" y="214" class="combo tap layer-activator">DVORAK</text>
+</a><text x="286" y="225" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1592)" class="layer-scroll">
@@ -1873,6 +1913,14 @@ rect.held, rect.combo.held {
 <a href="#settings">
 <text x="694" y="214" class="combo tap layer-activator"><tspan style="font-size: 75%">settings</tspan></text>
 </a></g>
+<g class="combo combopos-1">
+<path d="M286,214 l-44,-8" class="combo"/>
+<path d="M286,214 l44,8" class="combo"/>
+<rect rx="6" ry="6" x="272" y="201" width="28" height="26" class="combo"/>
+<a href="#DVORAK">
+<text x="286" y="214" class="combo tap layer-activator">DVORAK</text>
+</a><text x="286" y="225" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 </svg>

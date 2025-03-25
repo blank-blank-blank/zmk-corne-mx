@@ -300,3 +300,5 @@ combos:
   l: [SYMBOL]
 - p: [45, 47]
   k: settings
+- p: [42, 44]
+  k: {t: DVORAK, h: toggle}
