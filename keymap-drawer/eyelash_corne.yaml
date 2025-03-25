@@ -42,7 +42,7 @@ layers:
   - W
   - V
   - Z
-  - $$mdi:keyboard-esc$$
+  - {t: /, s: '?'}
   - LGUI
   - NUMBER
   - {t: '$$mdi:keyboard-space$$', h: Fn}
