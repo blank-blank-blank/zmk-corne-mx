@@ -87,6 +87,11 @@
             bindings = <&mo 4>;
             key-positions = <45 47>;
         };
+
+        to_default_layer {
+            bindings = <&to 0>;
+            key-positions = <42 44>;
+        };
     };
 
     keymap {
