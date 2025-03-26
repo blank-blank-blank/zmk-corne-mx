@@ -159,6 +159,7 @@
             >;
 
             sensor-bindings = <&rgb_brightness>;
+            label = "SETTINGS";
         };
     };
 };
