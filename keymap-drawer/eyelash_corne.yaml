@@ -82,7 +82,7 @@ layers:
   - Z
   - X
   - C
-  - {t: '$$mdi:transfer$$', type: trans}
+  - V
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:pan-down$$
