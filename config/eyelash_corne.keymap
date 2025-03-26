@@ -58,6 +58,13 @@
             #binding-cells = <0>;
             bindings = <&mo 2>, <&tog 2>;
         };
+
+        r_u_sure_clear: r_u_sure_clear {
+            compatible = "zmk,behavior-tap-dance";
+            label = "R_U_SURE_CLEAR";
+            #binding-cells = <0>;
+            bindings = <&none>, <&bt BT_CLR>;
+        };
     };
 
     rgb_encoder: rgb_encoder {
@@ -145,10 +152,10 @@
 
         settings_layer {
             bindings = <
-&bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4  &trans                    &trans          &out OUT_USB  &out OUT_BLE  &trans  &trans  &trans  &bt BT_CLR_ALL
-&trans          &trans           &trans           &trans           &trans        &trans            &trans  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans
-&rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans        &trans  &trans            &trans          &trans        &trans        &trans  &trans  &trans  &trans
-                                                  &trans           &trans        &trans                                    &trans        &trans        &trans
+&bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4  &r_u_sure_clear                    &trans          &out OUT_USB  &out OUT_BLE  &trans  &trans  &trans  &bt BT_CLR_ALL
+&trans          &trans           &trans           &trans           &trans        &trans                     &trans  &trans  &trans  &trans        &trans        &trans  &trans  &trans  &trans
+&rgb_ug RGB_ON  &rgb_ug RGB_OFF  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans        &trans           &trans            &trans          &trans        &trans        &trans  &trans  &trans  &trans
+                                                  &trans           &trans        &trans                                             &trans        &trans        &trans
             >;
 
             sensor-bindings = <&rgb_brightness>;
