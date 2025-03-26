@@ -119,10 +119,10 @@
         lower_layer {
             display-name = "NUMSCROLLEMU";
             bindings = <
-&kp GRAVE       &kp N1  &kp N2  &kp N3        &kp N4      &kp N5                                    &msc SCRL_UP                     &kp N6     &kp N7    &kp N8    &kp N9            &kp N0             &kp BSPC
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp INSERT  &kp DELETE                &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &kp HOME   &none     &kp UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_UP
-&kp LCTRL       &kp Z   &kp X   &kp C         &kp V       &kp PRINTSCREEN  &none                    &msc SCRL_DOWN                   &kp END    &kp LEFT  &kp DOWN  &kp RIGHT         &none              &kp PG_DN
-                                &kp LEFT_GUI  &trans      &kp SPACE                                                                  &kp ENTER  &trans    &kp RALT
+&kp GRAVE       &kp N1  &kp N2  &kp N3        &kp N4      &kp N5                                      &msc SCRL_UP                     &kp N6     &kp N7    &kp N8    &kp N9            &kp N0             &kp BSPC
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp INSERT  &kp DELETE                  &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &kp HOME   &none     &kp UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_UP
+&kp LCTRL       &kp Z   &kp X   &kp C         &kp V       &kp PRINTSCREEN  &kp F20                    &msc SCRL_DOWN                   &kp END    &kp LEFT  &kp DOWN  &kp RIGHT         &none              &kp PG_DN
+                                &kp LEFT_GUI  &trans      &kp SPACE                                                                    &kp ENTER  &trans    &kp RALT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
@@ -143,10 +143,10 @@
         layer_3 {
             display-name = "FN_CAD";
             bindings = <
-&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                   &trans          &kp F6  &kp F7               &kp F8              &kp F9  &kp F10  &kp F11
-&none  &none   &none   &none   &none   &none            &trans  &trans  &trans  &none   &kp LG(PAUSE_BREAK)  &kp LC(LA(DELETE))  &none   &none    &kp F12
-&none  &none   &none   &none   &none   &none   &none            &trans          &none   &none                &none               &none   &none    &kp PAUSE_BREAK
-                       &none   &none   &trans                                   &trans  &none                &none
+&none  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                     &trans          &kp F6  &kp F7               &kp F8              &kp F9  &kp F10  &kp F11
+&none  &none   &none   &none   &none   &none              &trans  &trans  &trans  &none   &kp LG(PAUSE_BREAK)  &kp LC(LA(DELETE))  &none   &none    &kp F12
+&none  &none   &none   &none   &none   &none   &kp F20            &trans          &none   &none                &none               &none   &none    &kp PAUSE_BREAK
+                       &none   &none   &trans                                     &trans  &none                &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
