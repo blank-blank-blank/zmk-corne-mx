@@ -127,7 +127,7 @@
         };
 
         raise_layer {
-            display-name = "SYMBOL";
+            display-name = "SYMBOLMOUSE";
             bindings = <
 &kp TILDE  &kp EXCL   &kp AT     &kp HASH  &kp DLLR   &kp PRCNT                    &trans          &kp CARET  &kp AMPS  &kp ASTRK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp BSPC
 &trans     &trans     &trans     &trans    &kp EQUAL  &kp PLUS             &trans  &trans  &trans  &trans     &trans    &trans     &trans                &trans                 &trans
