@@ -112,10 +112,10 @@
         lower_layer {
             display-name = "NUMSCROLL";
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4      &kp N5                                     &msc SCRL_UP                     &kp N6    &kp N7    &kp N8    &kp N9            &kp N0             &kp BSPC
-&kp A      &kp S   &kp D   &kp F   &kp INSERT  &kp DELETE                 &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &kp HOME  &trans    &kp UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_UP
-&kp Z      &kp X   &kp C   &kp V   &trans      &kp PRINTSCREEN  &trans                    &msc SCRL_DOWN                   &kp END   &kp LEFT  &kp DOWN  &kp RIGHT         &trans             &kp PG_DN
-                           &trans  &trans      &trans                                                                      &trans    &trans    &trans
+&kp GRAVE       &kp N1  &kp N2  &kp N3  &kp N4      &kp N5                                     &msc SCRL_UP                     &kp N6    &kp N7    &kp N8    &kp N9            &kp N0             &kp BSPC
+&kp LEFT_SHIFT  &kp A   &kp S   &kp D   &kp INSERT  &kp DELETE                 &msc SCRL_LEFT  &mkp MCLK       &msc SCRL_RIGHT  &kp HOME  &trans    &kp UP    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_UP
+&kp LCTRL       &kp Z   &kp X   &kp C   &trans      &kp PRINTSCREEN  &trans                    &msc SCRL_DOWN                   &kp END   &kp LEFT  &kp DOWN  &kp RIGHT         &trans             &kp PG_DN
+                                &trans  &trans      &trans                                                                      &trans    &trans    &trans
             >;
         };
 
