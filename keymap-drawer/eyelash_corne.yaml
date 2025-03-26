@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-option$$
-  SYMBOL:
+  SYMBOLMOUSE:
   - '~'
   - '!'
   - '@'
@@ -248,7 +248,7 @@ layers:
 combos:
 - p: [0, 1]
   k: $$mdi:keyboard-esc$$
-  l: [SYMBOL]
+  l: [SYMBOLMOUSE]
 - p: [45, 47]
   k: settings
 - p: [42, 44]
