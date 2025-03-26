@@ -110,7 +110,7 @@
         };
 
         lower_layer {
-            display-name = "NUMBER";
+            display-name = "NUMSCROLL";
             bindings = <
 &kp GRAVE  &kp N1  &kp N2  &kp N3  &kp N4      &kp N5                             &msc SCRL_UP            &kp N6    &kp N7    &kp N8    &kp N9     &kp N0  &kp BSPC
 &trans     &trans  &trans  &trans  &kp INSERT  &kp DELETE                 &trans  &mkp MCLK       &trans  &kp HOME  &trans    &kp UP    &trans     &trans  &kp PG_UP
@@ -152,15 +152,6 @@
             >;
 
             sensor-bindings = <&rgb_brightness>;
-        };
-
-        scroll_layer {
-            bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans                                    &trans  &trans  &trans
-            >;
         };
     };
 };
