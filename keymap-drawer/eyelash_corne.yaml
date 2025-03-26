@@ -63,10 +63,10 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-shift$$
   - A
   - S
   - D
-  - F
   - Ins
   - $$mdi:backspace-reverse-outline$$
   - $$mdi:pan-left$$
@@ -78,10 +78,10 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - PG UP
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
-  - V
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - {t: '$$mdi:transfer$$', type: trans}
