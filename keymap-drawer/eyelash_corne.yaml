@@ -49,7 +49,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - '&td_layer_2'
   - $$mdi:apple-keyboard-option$$
-  NUMSCROLL:
+  NUMSCROLLEMU:
   - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -73,7 +73,7 @@ layers:
   - $$mdi:mouse-scroll-wheel$$
   - $$mdi:pan-right$$
   - HOME
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:arrow-up-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -84,20 +84,20 @@ layers:
   - C
   - V
   - PRINTSCREEN
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:pan-down$$
   - END
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-option$$
   SYMBOL:
   - '~'
   - '!'
