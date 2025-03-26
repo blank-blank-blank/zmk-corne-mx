@@ -45,8 +45,8 @@ layers:
   - {t: /, s: '?'}
   - LGUI
   - '&td_layer_1'
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - {t: '$$mdi:keyboard-space$$', h: FN_CAD}
+  - {t: '$$mdi:keyboard-return$$', h: FN_CAD}
   - '&td_layer_2'
   - $$mdi:apple-keyboard-option$$
   NUMSCROLLEMU:
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Fn:
+  FN_CAD:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
   - F2
